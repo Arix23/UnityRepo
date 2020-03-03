@@ -1,16 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Personaje : MonoBehaviour
 {
     public float speed = 50;
+    public Text textito;
     // Start is called before the first frame update
     //Sucede despues de awake
     void Start()
 
     {
         print("START");
+        textito.text = "BUENOS DÍAS AMIWITOS :@";
     }
 
     // Update is called once per frame
